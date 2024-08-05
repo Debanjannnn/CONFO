@@ -3,9 +3,11 @@ import React from 'react';// Adjust the path if necessary
 
 const Home = () => {
   return (
-      <div>
-        This is the home page content.
-      </div>
+    <section className='flex size-full  flex-col gap-10 text-white'>
+    <h1 className='text-3xl font-bold'>
+       Home
+    </h1>
+</section>
   );
 };
 
